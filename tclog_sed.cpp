@@ -40,7 +40,7 @@ int main()
     string row;
     while (getline(cin, row))
     {
-        for each (auto const s in substitutions)
+        for (auto const s : substitutions)
             row = regex_replace(row, s.first, s.second);
         cout << row << endl;
     }
