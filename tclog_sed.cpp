@@ -6,7 +6,6 @@
 //#include <sstream>
 #include <regex>
 #include <vector>
-#include "tclog_sed.h"
 
 using namespace std;
 /*
